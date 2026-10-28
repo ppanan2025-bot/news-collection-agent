@@ -1,0 +1,166 @@
+{
+  "outlets": [
+    {
+      "key": "bbc",
+      "name": "BBC News",
+      "domains": [
+        "bbc.co.uk",
+        "bbc.com"
+      ],
+      "country": "GB",
+      "ownership_group": "bbc",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "guardian",
+      "name": "The Guardian",
+      "domains": [
+        "theguardian.com"
+      ],
+      "country": "GB",
+      "ownership_group": "guardian-media-group",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "https://www.theguardian.com/world/rss",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "npr",
+      "name": "NPR",
+      "domains": [
+        "npr.org"
+      ],
+      "country": "US",
+      "ownership_group": "npr",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "https://feeds.npr.org/1004/rss.xml",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "aljazeera",
+      "name": "Al Jazeera English",
+      "domains": [
+        "aljazeera.com"
+      ],
+      "country": "QA",
+      "ownership_group": "al-jazeera-media-network",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "nyt",
+      "name": "The New York Times",
+      "domains": [
+        "nytimes.com"
+      ],
+      "country": "US",
+      "ownership_group": "nyt-company",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "dw",
+      "name": "Deutsche Welle",
+      "domains": [
+        "dw.com"
+      ],
+      "country": "DE",
+      "ownership_group": "dw",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "https://rss.dw.com/xml/rss-en-world",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "france24",
+      "name": "France 24",
+      "domains": [
+        "france24.com"
+      ],
+      "country": "FR",
+      "ownership_group": "france-medias-monde",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "https://www.france24.com/en/rss",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "skynews",
+      "name": "Sky News",
+      "domains": [
+        "sky.com"
+      ],
+      "country": "GB",
+      "ownership_group": "comcast-sky",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "cbs",
+      "name": "CBS News",
+      "domains": [
+        "cbsnews.com"
+      ],
+      "country": "US",
+      "ownership_group": "paramount-cbs",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "https://www.cbsnews.com/latest/rss/world",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "abc",
+      "name": "ABC News (US)",
+      "domains": [
+        "abcnews.com",
+        "abcnews.go.com"
+      ],
+      "country": "US",
+      "ownership_group": "disney-abc",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "https://feeds.abcnews.com/abcnews/internationalheadlines",
+          "topic": "world"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "news-collection-agent",
+  "version": "1.0.0",
+  "description": "Collect, cross-verify and reference news articles for research reports (MySQL + MCP + Claude Code)",
+  "scripts": {
+    "setup": "node scripts/init-env.mjs && docker compose up -d --wait && node scripts/seed.mjs",
+    "db:up": "docker compose up -d --wait",
+    "db:down": "docker compose down",
+    "seed": "node scripts/seed.mjs",
+    "collect": "node scripts/collect.mjs",
+    "verify": "node scripts/verify.mjs",
+    "refs": "node scripts/references.mjs",
+    "mcp": "node mcp-server/index.mjs",
+    "test": "node --test \"test/**/*.test.mjs\"",
+    "smoke": "bash scripts/smoke.sh",
+    "smoke:live": "node scripts/collect.mjs --limit-per-feed 20"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "mysql2": "^3.24.6",
+    "rss-parser": "^3.13.0",
+    "zod": "^3.25.76"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}

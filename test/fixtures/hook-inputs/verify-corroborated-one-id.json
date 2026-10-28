@@ -1,0 +1,1 @@
+{"session_id":"t","cwd":"/tmp","hook_event_name":"PreToolUse","tool_name":"mcp__newsdb__mark_verified","tool_input":{"article_id":1,"status":"corroborated","corroborating_ids":[2],"reason":"Same eruption reported by two outlets"}}

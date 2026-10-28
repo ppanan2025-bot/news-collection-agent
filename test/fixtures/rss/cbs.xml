@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>World - CBSNews.com</title>
+<link>https://www.cbsnews.com/world/</link>
+<description>Test fixture feed</description>
+<item>
+  <title>Magnitude 6.8 earthquake strikes northern Chile, no tsunami threat</title>
+  <link>https://www.cbsnews.com/news/chile-earthquake-magnitude-6-8-antofagasta/</link>
+  <guid isPermaLink="false">https://www.cbsnews.com/news/chile-earthquake-magnitude-6-8-antofagasta/</guid>
+  <description>SANTIAGO, Chile (AP) — A magnitude 6.8 earthquake shook northern Chile on Tuesday, swaying buildings in Antofagasta, but authorities said there was no tsunami threat and no immediate reports of damage.</description>
+  <pubDate>Tue, 20 Oct 2026 13:20:00 GMT</pubDate>
+</item>
+<item>
+  <title>Lunar probe launched by Japan to study polar ice</title>
+  <link>https://www.cbsnews.com/news/japan-lunar-probe-polar-ice/</link>
+  <guid isPermaLink="false">https://www.cbsnews.com/news/japan-lunar-probe-polar-ice/</guid>
+  <description>JAXA launched a robotic lander that will search for water ice near the moon's south pole.</description>
+</item>
+</channel>
+</rss>

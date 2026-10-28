@@ -1,0 +1,7 @@
+{
+  "allow_from_feeds": true,
+  "allow_extra": [],
+  "deny": ["bit.ly","t.co","tinyurl.com","goo.gl","ow.ly","buff.ly","lnkd.in","is.gd","rb.gy","cutt.ly",
+           "blogspot.com","wordpress.com","medium.com","substack.com","tumblr.com"],
+  "report_url_exempt": ["doi.org","arxiv.org"]
+}

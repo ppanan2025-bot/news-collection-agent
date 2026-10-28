@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Al Jazeera – Breaking News</title>
+<link>https://www.aljazeera.com</link>
+<description>Test fixture feed</description>
+<item>
+  <title>Sudan peace talks resume in Jeddah over humanitarian corridors</title>
+  <link>https://www.aljazeera.com/news/2026/10/20/sudan-talks-jeddah</link>
+  <guid isPermaLink="false">https://www.aljazeera.com/news/2026/10/20/sudan-talks-jeddah</guid>
+  <description>Delegations from the warring parties returned to Saudi-hosted negotiations focused on aid access to Darfur and Kordofan.</description>
+  <pubDate>Tue, 20 Oct 2026 08:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

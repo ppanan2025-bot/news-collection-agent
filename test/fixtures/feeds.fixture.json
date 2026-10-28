@@ -1,0 +1,102 @@
+{
+  "outlets": [
+    {
+      "key": "bbc",
+      "name": "BBC News",
+      "domains": [
+        "bbc.co.uk",
+        "bbc.com"
+      ],
+      "country": null,
+      "ownership_group": "bbc",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "file:test/fixtures/rss/bbc.xml",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "guardian",
+      "name": "The Guardian",
+      "domains": [
+        "theguardian.com"
+      ],
+      "country": null,
+      "ownership_group": "guardian-media-group",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "file:test/fixtures/rss/guardian.xml",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "npr",
+      "name": "NPR",
+      "domains": [
+        "npr.org"
+      ],
+      "country": null,
+      "ownership_group": "npr",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "file:test/fixtures/rss/npr.xml",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "aljazeera",
+      "name": "Al Jazeera English",
+      "domains": [
+        "aljazeera.com"
+      ],
+      "country": null,
+      "ownership_group": "al-jazeera-media-network",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "file:test/fixtures/rss/aljazeera.xml",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "abc",
+      "name": "ABC News (US)",
+      "domains": [
+        "abcnews.com",
+        "abcnews.go.com"
+      ],
+      "country": null,
+      "ownership_group": "disney-abc",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "file:test/fixtures/rss/abc.xml",
+          "topic": "world"
+        }
+      ]
+    },
+    {
+      "key": "cbs",
+      "name": "CBS News",
+      "domains": [
+        "cbsnews.com"
+      ],
+      "country": null,
+      "ownership_group": "paramount-cbs",
+      "tier": "high",
+      "feeds": [
+        {
+          "url": "file:test/fixtures/rss/cbs.xml",
+          "topic": "world"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "newsdb": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["mcp-server/index.mjs"],
+      "env": { "NEWSDB_HOST": "127.0.0.1", "NEWSDB_PORT": "3307", "NEWSDB_DATABASE": "newsdb" }
+    }
+  }
+}

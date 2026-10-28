@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>BBC News - World</title>
+<link>https://www.bbc.co.uk/news/world</link>
+<description>Test fixture feed</description>
+<item>
+  <title>Iceland volcano erupts near Grindavik, forcing evacuation</title>
+  <link>https://www.bbc.co.uk/news/articles/c1volcano?at_medium=RSS&amp;at_campaign=rss</link>
+  <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c1volcano?at_medium=RSS&amp;at_campaign=rss</guid>
+  <description>&lt;p&gt;A volcano on the &lt;b&gt;Reykjanes&lt;/b&gt; peninsula in Iceland has erupted near the fishing town of Grindavik, forcing the evacuation of residents and the Blue Lagoon spa.&lt;/p&gt;</description>
+  <pubDate>Tue, 20 Oct 2026 06:10:00 GMT</pubDate>
+</item>
+<item>
+  <title>UK inflation falls to 2.1% in September</title>
+  <link>https://www.bbc.co.uk/news/business-inflation-2026</link>
+  <guid isPermaLink="false">https://www.bbc.co.uk/news/business-inflation-2026</guid>
+  <description>Consumer price inflation in the United Kingdom eased last month as fuel and food costs dropped, official statistics show.</description>
+  <pubDate>Tue, 20 Oct 2026 09:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Scientists map deep-sea coral reef off Scotland</title>
+  <link>https://www.bbc.com/news/science-coral-reef-scotland</link>
+  <guid isPermaLink="false">https://www.bbc.com/news/science-coral-reef-scotland</guid>
+  <description>Marine biologists used underwater robots to chart a cold-water coral reef in the North Atlantic.</description>
+  <pubDate>Tue, 20 Oct 2026 11:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Read the full story here</title>
+  <link>https://bit.ly/abc123</link>
+  <guid isPermaLink="false">https://bit.ly/abc123</guid>
+  <description>Shortened link that the domain policy must reject.</description>
+  <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

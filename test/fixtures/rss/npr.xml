@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>World : NPR</title>
+<link>https://www.npr.org/sections/world/</link>
+<description>Test fixture feed</description>
+<item>
+  <title>Iceland's Reykjanes volcano erupted again near Grindavik town</title>
+  <link>https://www.npr.org/2026/10/20/iceland-volcano-grindavik</link>
+  <guid isPermaLink="false">https://www.npr.org/2026/10/20/iceland-volcano-grindavik</guid>
+  <description>Iceland declared a state of emergency after the Reykjanes volcano erupted near Grindavik; residents were evacuated as lava flowed toward defensive walls.</description>
+  <pubDate>Tue, 20 Oct 2026 10:20:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

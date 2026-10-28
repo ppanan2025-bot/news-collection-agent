@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "enabledMcpjsonServers": ["newsdb"],
+  "permissions": {
+    "allow": [
+      "mcp__newsdb__stats", "mcp__newsdb__list_outlets", "mcp__newsdb__search_articles",
+      "mcp__newsdb__get_article", "mcp__newsdb__find_corroborations", "mcp__newsdb__query_references",
+      "mcp__newsdb__run_readonly_sql",
+      "Bash(npm run collect:*)", "Bash(npm run verify:*)", "Bash(npm run refs:*)", "Bash(npm test)"
+    ],
+    "deny": ["Read(./.env)", "Edit(./.env)", "Write(./.env)"]
+  },
+  "hooks": {
+    "PreToolUse": [
+      { "matcher": "mcp__newsdb__insert_article",
+        "hooks": [{ "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/validate-domain.mjs\"", "timeout": 15 }] },
+      { "matcher": "mcp__newsdb__cite_articles",
+        "hooks": [{ "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/require-corroborated.mjs\"", "timeout": 15 }] },
+      { "matcher": "mcp__newsdb__mark_verified",
+        "hooks": [{ "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/check-verification-input.mjs\"", "timeout": 15 }] },
+      { "matcher": "Write|Edit|MultiEdit",
+        "hooks": [{ "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard-report-write.mjs\"", "timeout": 15 }] },
+      { "matcher": "Bash",
+        "hooks": [{ "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard-bash-db.mjs\"", "timeout": 10 }] }
+    ]
+  }
+}

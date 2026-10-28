@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>World news | The Guardian</title>
+<link>https://www.theguardian.com/world</link>
+<description>Test fixture feed</description>
+<item>
+  <title>Volcanic eruption in Iceland forces Grindavik residents to flee</title>
+  <link>https://www.theguardian.com/world/2026/oct/20/iceland-volcano-eruption-grindavik</link>
+  <guid isPermaLink="false">https://www.theguardian.com/world/2026/oct/20/iceland-volcano-eruption-grindavik</guid>
+  <description>Lava fountains lit up the sky above the Reykjanes peninsula as Icelandic authorities ordered Grindavik evacuated for the second time this year.</description>
+  <pubDate>Tue, 20 Oct 2026 07:45:00 GMT</pubDate>
+  <dc:creator>Test Reporter</dc:creator>
+</item>
+<item>
+  <title>Volcanic eruption in Iceland forces Grindavik residents to flee</title>
+  <link>https://www.theguardian.com/world/2026/oct/20/iceland-volcano-eruption-grindavik?utm_source=rss&amp;utm_medium=feed</link>
+  <guid isPermaLink="false">guardian-dup</guid>
+  <description>Lava fountains lit up the sky above the Reykjanes peninsula as Icelandic authorities ordered Grindavik evacuated for the second time this year.</description>
+  <pubDate>Tue, 20 Oct 2026 07:45:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

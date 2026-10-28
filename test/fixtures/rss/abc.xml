@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>ABC News: International</title>
+<link>https://abcnews.go.com/International</link>
+<description>Test fixture feed</description>
+<item>
+  <title>Magnitude 6.8 earthquake strikes northern Chile, no tsunami threat</title>
+  <link>https://abcnews.go.com/International/wireStory/magnitude-68-earthquake-strikes-northern-chile-1234567</link>
+  <guid isPermaLink="false">https://abcnews.go.com/International/wireStory/magnitude-68-earthquake-strikes-northern-chile-1234567</guid>
+  <description>SANTIAGO, Chile (AP) — A magnitude 6.8 earthquake shook northern Chile on Tuesday, swaying buildings in Antofagasta, but authorities said there was no tsunami threat and no immediate reports of damage.</description>
+  <pubDate>Tue, 20 Oct 2026 13:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
